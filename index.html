@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio Timur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="menu">
+          <button class="menu__btn">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18" fill="none">
+              <path d="M0 0H30V2H0V0Z" fill="white"></path>
+              <path d="M0 8H30V10H0V8Z" fill="white"></path>
+              <rect y="16" width="30" height="2" fill="white"></rect>
+            </svg>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#projects">Projects</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#tech">Technologies</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#about">About me</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="social__links">
+          <a class="email" href="mailto:timhudsondev013@gmail.com">
+            <img src="images/mail.svg" alt="">
+          </a>
+          <a href="https://github.com/TimWolfskin">
+            <img src="images/github.svg" alt="">
+          </a>
+          <a href="https://www.linkedin.com/in/timur-aliev-27657a23b/">
+            <img src="images/Linkedin.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="header__wrapper">
+        <div class="header__content">
+          <h1 class="header-title">
+            Hi, i'm Timur Aliev
+            <span>Front End Developer</span>
+          </h1>
+          <p class="header-subtitle">
+            Experienced Full Stack Developer driven by a profound passion for crafting visually captivating and
+            user-centric web applications.
+          </p>
+        </div>
+        <img class="header-image" src="images/header-bg.jpeg" alt="">
+      </div>
+    </div>
+  </header>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h3 class="projects__title title">
+        Projects
+      </h3>
+      <div class="project__items">
+        <div class="project__item">
+          <img class="project__item-img" src="images/portfolio-content/marcho.jpg" alt="">
+          <h5 class="project__item-title">Marcho</h5>
+          <p class="project__item-text">
+            Frontend part of multi-page store.
+            Custom checkboxes and filters, slider and videoplayer
+            Created pages: Home, Shop, Register, Product, Login, Contacts, Blog, BlogOne, 404-page
+          </p>
+          <p class="project__item-stack">
+            Tech stack :
+            <span>HTML, SCSS, JavaScript, Gulp</span>
+          </p>
+          <div class="project__links">
+            <button class="project__btn" data-url="https://marcho.netlify.app/">
+              <img class="project__link-img" src="images/preview-icon.svg" alt="">
+              Live Preview
+            </button>
+            <button class="project__btn" data-url="https://github.com/TimWolfskin/marcho">
+              <img class="project__link-img" src="images/project-github.svg" alt="">
+              View Code
+            </button>
+          </div>
+        </div>
+        <div class="project__item">
+          <img class="project__item-img" src="images/portfolio-content/veico.jpg" alt="">
+          <h5 class="project__item-title">Veico</h5>
+          <p class="project__item-text">
+            Car rent React web application
+            Implement Advanced Search Functionality
+            Create Filtering Capabilities
+            Create custom filter, combo box, and modal elements
+          </p>
+          <p class="project__item-stack">
+            Tech stack :
+            <span>HTML , TypeScript, SASS, React</span>
+          </p>
+          <div class="project__links">
+            <button class="project__btn" data-url="https://veico.vercel.app/">
+              <img class="project__link-img" src="images/preview-icon.svg" alt="">
+              Live Preview
+            </button>
+            <button class="project__btn" data-url="https://github.com/TimWolfskin/veico">
+              <img class="project__link-img" src="images/project-github.svg" alt="">
+              View Code
+            </button>
+          </div>
+        </div>
+        <div class="project__item">
+          <img class="project__item-img" src="images/portfolio-content/aloomic.jpg" alt="">
+          <h5 class="project__item-title">Aloomic</h5>
+          <p class="project__item-text">
+            e-commerce web application
+            Filtering products by categories, name, and price,
+            searching by name, the logic of adding items to the
+            cart, and the ability to increase the quantity of items.
+            Login in, Sing up Functionality, use API
+          </p>
+          <p class="project__item-stack">
+            Tech stack :
+            <span>React, Redux, JavaScript</span>
+          </p>
+          <div class="project__links">
+            <button class="project__btn" data-url="https://aloomic-2xbwi8js4-timwolfskin.vercel.app/">
+              <img class="project__link-img" src="images/preview-icon.svg" alt="">
+              Live Preview
+            </button>
+            <button class="project__btn" data-url="https://github.com/TimWolfskin/aloomic">
+              <img class="project__link-img" src="images/project-github.svg" alt="">
+              View Code
+            </button>
+          </div>
+        </div>
+        <div class="project__item">
+          <img class="project__item-img" src="images/portfolio-content/marketing.jpg" alt="">
+          <h5 class="project__item-title">Marketing</h5>
+          <p class="project__item-text">
+            This is responsive landing page <br>
+            Pixel perfect. <br>
+            Dynamic portfolio, video viewing, and slider
+          </p>
+          <p class="project__item-stack">
+            Tech stack :
+            <span>HTML, CSS, Grid,Flexbox, jQuery</span>
+          </p>
+          <div class="project__links">
+            <button class="project__btn" data-url="https://designmarketing.netlify.app/">
+              <img class="project__link-img" src="images/preview-icon.svg" alt="">
+              Live Preview
+            </button>
+            <button class="project__btn" data-url="https://github.com/TimWolfskin/marketing">
+              <img class="project__link-img" src="images/project-github.svg" alt="">
+              View Code
+            </button>
+          </div>
+        </div>
+        <div class="project__item">
+          <img class="project__item-img" src="images/portfolio-content/wilder.jpg" alt="">
+          <h5 class="project__item-title">Wilder</h5>
+          <p class="project__item-text">
+            Multipage app. Using: Gallery with single photo selection,
+            Converting an array of elements to an array of React elements Single post output using useState hook,
+            Rendering an image gallery using the Pexels API using an async function
+          </p>
+          <p class="project__item-stack">
+            Tech stack :
+            <span>React, Styled-components</span>
+          </p>
+          <div class="project__links">
+            <button class="project__btn" data-url="https://wilder-one.vercel.app/">
+              <img class="project__link-img" src="images/preview-icon.svg" alt="">
+              Live Preview
+            </button>
+            <button class="project__btn" data-url="https://github.com/TimWolfskin/Wilder-react-blog">
+              <img class="project__link-img" src="images/project-github.svg" alt="">
+              View Code
+            </button>
+          </div>
+        </div>
+        <div class="project__item">
+          <img class="project__item-img" src="images/portfolio-content/wawe.jpg" alt="">
+          <h5 class="project__item-title">wawe</h5>
+          <p class="project__item-text">
+            This is responsive landing page <br>
+            Pixel perfect. <br>
+            Used Figma to working with template
+          </p>
+          <p class="project__item-stack">
+            Tech stack :
+            <span>HTML , JavaScript, CSS, BEM</span>
+          </p>
+          <div class="project__links">
+            <button class="project__btn" data-url="https://leafy-khapse-f059a4.netlify.app/">
+              <img class="project__link-img" src="images/preview-icon.svg" alt="">
+              Live Preview
+            </button>
+            <button class="project__btn" data-url="https://github.com/TimWolfskin/wawe-2">
+              <img class="project__link-img" src="images/project-github.svg" alt="">
+              View Code
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <secttin class="tech" id="tech">
+    <div class="container">
+      <h3 class="tech__title title">
+        My Tech Stack
+      </h3>
+      <p class="tech__subtitle">
+        Technologies I've been working with recently
+      </p>
+      <div class="tech__items">
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/html.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/css.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/js.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/react.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/redux.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/git.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/gulp.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/sass.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/tailwind.svg" alt="">
+        </div>
+        <div class="tech__item">
+          <img class="tech__item-img" src="images/Tech/vscode.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </secttin>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h3 class="about__title title">About me</h3>
+      <p class="about__text">
+        Experienced Frontend Developer driven by a profound passion for crafting visually captivating and
+        user-centric web applications. Committed to delivering top-tier code within project deadlines.
+        Actively seeking opportunities to leverage my skills and enthusiasm for frontend development in
+        order to create digital solutions centered around the user.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <!-- <div class="footer__content">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#projects">Projects</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#tech">Technologies</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#about">About me</a>
+              </li>
+            </ul>
+          </nav>
+        </div> -->
+        <a class="email" href="mailto:timhudsondev013@gmail.com">
+          timhudsondev013@gmail.com
+        </a>
+        <div class="social__links">
+          <a href="https://github.com/TimWolfskin">
+            <img src="images/github.svg" alt="">
+          </a>
+          <a href="https://www.linkedin.com/in/timur-aliev-27657a23b/">
+            <img src="images/Linkedin.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
